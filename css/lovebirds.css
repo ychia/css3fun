@@ -1,0 +1,228 @@
+  body {
+    background-color: #d5d5d5;
+    color: #999;
+    font-family:"Helvetica Neue",Arial,Helvetica,sans-serif;
+    font-size: 16px;
+  }
+  
+  .amp {
+    font-family:Garamond,Georgia,serif !important;
+    font-style:italic;
+    font-weight:normal;
+    border: none;
+    color: black;
+  }
+  
+  div.photo {
+    cursor:;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    max-width: 300px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    z-index: 2;
+    font-size: 0.7em;
+    -webkit-box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
+    -moz-box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
+    box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
+  }
+  div.photo:hover,
+  div.photo:focus,
+  div.photo:active {
+    z-index: 999;
+    border-color: #6A6A6A;
+    top: -20px;
+    left: 100px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+    max-width: 800px;
+    padding-bottom: 20px;
+  }
+  div.photo, div.photo img, div.photo span {
+    -webkit-transition: 3s linear;
+    -moz-transition: 3s linear;
+    -o-transition: 3s linear;
+    -ms-transition: 3s linear;
+    transition: 3s linear;
+    /*-webkit-transition: max-width 2s 0.5s linear, opacity 2s ease 2s, top 3s linear, left 3.5s linear;
+    -moz-transition: max-width 2s 0.5s linear, opacity 2s ease 2s, top 3s linear, left 3.5s linear;
+    -o-transition: max-width 2s 0.5s linear, opacity 2s ease 2s, top 3s linear, left 3.5s linear;
+    -ms-transition: max-width 2s 0.5s linear, opacity 2s ease 2s, top 3s linear, left 3.5s linear;
+    transition: max-width 2s 0.5s linear, opacity 2s ease 2s, top 3s linear, left 3.5s linear;*/
+  }
+  div.photo:hover img,
+  div.photo:focus img,
+  div.photo:active img{
+    max-width: 800px;
+    margin-bottom: 15px;
+  }
+
+  .photo img {
+    max-width: 300px;
+  }
+  
+  .photo span {
+    opacity: 0;
+  }
+
+  .photo:hover span,
+  .photo:focus span,
+  .photo:active span {
+    opacity: 1;
+  }
+
+  div img {
+    border: none;
+    display: block;
+  }
+  
+  .photo-album {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 70em;
+    height: 800px;
+    margin-top: 5em;
+    min-width: 900px;
+    max-width: 1000px;
+  }
+  .photo-album .photo {
+    position: absolute;
+  }
+  .photo-album h1 {
+    position: absolute;
+    z-index: 5;
+    top: 250px;
+    text-align: center;
+    width: 100%;
+    line-height: 1.9;
+  }
+  .photo-album h1 span {
+    background-color: white;
+    font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
+    padding: 0.4em 0.8em 0.3em 0.8em;
+    -webkit-box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
+    -moz-box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
+    box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
+    border: 1px solid #6A6A6A;
+  }
+  .photo-album .img1 {
+    top: 370px;
+    left: 325px;
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    transform: rotate(10deg);
+  }
+  .photo-album .img2 {
+    top: 320px;
+    left: 0px;
+    -webkit-transform: rotate(-4deg);
+    -moz-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+  }
+  .photo-album .img3 {
+    left: 430px;
+    top: 375px;
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+  }
+  .photo-album .img4 {
+    top: 10px;
+    left: 695px;
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+  }
+  .photo-album .img5 {
+    top: 325px;
+    left: 350px;
+    -webkit-transform: rotate(1deg);
+    -moz-transform: rotate(1deg);
+    transform: rotate(1deg);
+  }
+  .photo-album .img6 {
+    top: 230px;
+    left: 675px;
+    -webkit-transform: rotate(6deg);
+    -moz-transform: rotate(6deg);
+    transform: rotate(6deg);
+  }
+  .photo-album .img7 {
+    top: 550;
+    left:320px;
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+  .photo-album .img8 {
+    top: 280px;
+    left: 100px;
+    -webkit-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+  }
+  .photo-album .img9 {
+    top: 550;
+    left: 0;
+    -webkit-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+  }
+  .photo-album .img10 {
+    top: 125px;
+    left: 20px;
+    -webkit-transform: rotate(8deg);
+    -moz-transform: rotate(8deg);
+    transform: rotate(8deg);
+  }
+  .photo-album .img11 {
+    top: 25px;
+    left: 450px;
+    -webkit-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+  }
+  .photo-album .img12 {
+    top: 0;
+    left: 680px;
+    -webkit-transform: rotate(18deg);
+    -moz-transform: rotate(18deg);
+    transform: rotate(18deg);
+  }
+  .photo-album .img13 {
+    top: 270px;
+    left: 470px;
+    -webkit-transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    transform: rotate(4deg);
+  }
+  .photo-album .img14 {
+    top: 90px;
+    left: 430px;
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+  .photo-album .img15 {
+    top:320px;
+    left:720px;
+    -webkit-transform: rotate(-18deg);
+    -moz-transform: rotate(-18deg);
+    transform: rotate(-18deg);
+  }
+  .photo-album .img16 {
+    left:236px;
+    top:95px;
+    -webkit-transform: rotate(-12deg);
+    -moz-transform: rotate(-12deg);
+    transform: rotate(-12deg);
+  }
+  div:hover,
+  div:focus {
+    z-index: 5;
+  }
+  
